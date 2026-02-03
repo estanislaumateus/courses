@@ -3,6 +3,7 @@ import HelloWord from './components/HelloWord';
 import SayName from './components/SayName';
 import People from './components/People';
 import Botao from './components/Botao/Botao';
+import Lista from './components/Lista/Lista';
 
 function mensagem(){
   alert("Olá, essa mensagem foi dsparada por uma funcção!")
@@ -30,6 +31,7 @@ function App() {
       formacao={formacao}
        />
       <Botao/>
+      <Lista />
       
     </div>
   );
