@@ -1,7 +1,8 @@
 import styles from './Event2.module.css';
 function Event2() {
 
-    function singUp(){
+    function singUp(e){
+        e.preventDefault()
         alert("Usuário cadastrado com sucesso!")
     }
 
