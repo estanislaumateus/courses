@@ -5,10 +5,11 @@ function Lista() {
     return (
         <>
             <ul className={styles.lista}>
-                <ItemLista marca="Toyata" />
-                <ItemLista marca="BMW" />
-                <ItemLista marca="Mercedes" />
-                <ItemLista marca="Tesla"/>
+                <ItemLista marca="Toyata" anoLancamento={2008} />
+                <ItemLista marca="BMW"  anoLancamento={2006}/>
+                <ItemLista marca="Mercedes" anoLancamento={2000} />
+                <ItemLista marca="Tesla" anoLancamento={1990}/>
+                <ItemLista  />
             </ul>
         </>
     )

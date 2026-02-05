@@ -1,11 +1,22 @@
-function ItemLista (props) {
+import PropTypes from 'prop-types';
+function ItemLista ({marca, anoLancamento}) {
 
     return(
         <>
-            <li>{props.marca}</li>
-            <p>Testando novamente</p>
+            <li>{marca} - {anoLancamento}</li>
+           
         </>
     )
 }
+ItemLista.propTypes ={
+    marca: PropTypes.string.isRequired,
+    anoLancamento: PropTypes.number 
+}
+
+ItemLista.defaultProps = {
+    marca: 'Marca não informada',
+    anoLancamento: 0
+}
+
 
 export default ItemLista;
