@@ -1,12 +1,14 @@
 import styles from './Lista.module.css';
+import ItemLista from './ItemLista';
 
 function Lista() {
     return (
         <>
             <ul className={styles.lista}>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
+                <ItemLista marca="Toyata" />
+                <ItemLista marca="BMW" />
+                <ItemLista marca="Mercedes" />
+                <ItemLista marca="Tesla"/>
             </ul>
         </>
     )
