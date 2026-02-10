@@ -1,20 +1,12 @@
 import './App.css';
-
-import Event3 from './components/Eventos/Event3';
-import Event4 from './components/Eventos/Event4';
-
-function mensagem(){
-  alert("Olá, essa mensagem foi dsparada por uma funcção!")
-}
+import Condicional from './components/Render/Condicional';
 
 function App() {
 
   return (
     <div className="App">
   
-      <Event3 />
-      <Event4 />
-      
+      <Condicional />
     </div>
   );
 }
